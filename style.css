@@ -1,0 +1,70 @@
+html {
+    background-color: #DCDCDC;
+}
+
+header {
+    padding: 10px;
+    background-color: #a26263;
+}
+
+#navigation li{
+    margin: 10px;
+    display: inline;
+}
+
+main {
+    padding: 40px;
+    background-color: #f2e8e8;
+}
+
+.blog_post{
+    margin: 15px;
+    line-height: 0.75cm;
+    border-bottom: 2px solid;
+}
+
+.blog_post img{
+    margin: 10px 20px;
+    float: right;
+}
+
+#gumball_table, th, td{
+    border: 1px solid;
+    margin: 10px;
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+#sign_up{
+    margin: 10px;
+    padding: 20px;
+    background-color: #af96a8;
+}
+button{
+    background-color: #a26263;
+}
+
+#stats{
+    float: left;
+    background-color: #af96a8;
+    padding: 40px;
+    margin: 15px 15px 15px 15px;
+    font-size: large;
+    font-family: Monaco, monospace;
+}
+
+#contact label{
+    display: block;
+    line-height: 1cm;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+    border: 2px solid;
+    background-color: #af96a8;
+}
+
+button:hover {
+    border: 2px solid;
+    background-color: #e15a5d;
+}

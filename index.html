@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Alexa's Blog Page</title>
 
 </head>
@@ -11,7 +12,7 @@
     <header>
         <h1>Alexa's Super Entertaining Website :P</h1>
         <nav>
-            <ul>
+            <ul id="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -32,7 +33,7 @@
                 <p>
                     If you've ever played Webkinz Classic, you probably know the joys of playing at the arcade and trying to get a high score. My absolute favorite is Operation Gumball. The game works similarly to the classic code-breaker game Mastermind. There are 30 levels, and you are awarded points based on number of guesses and time. It's a super fun game that I am, not to brag, pretty good at. I frequent the high score of the day slot and have even sat at high score of the month a few times. However, the <em>real</em> test of who's on top is the holy grail: the top ten overall scorers. I've come just shy of this list numerous times. I've even fantasized about sitting up at that number one spot. But something doesn't sit right with me... If you venture to the "Scores and Achievements" section of the Kinzville Times, you'll see that the top dog, a Webkinz named Sweet Pea, has a perfect score of 150,000. None of the other scores across any of the operation gumball pages are such a perfect number. The scoring is incredibly intricate and the numbers often seem nonsensical. Each level you are awarded a time bonus (hilariously misspelled as "tome bonus") relating to the number of seconds you have left, so you'd have to line them up perfectly over 30 levels to achieve such a round number. To illustrate this, I played the first 5 levels and recorded my scores in the table below.
                 </p>
-                <table>
+                <table id="gumball_table">
                     <tr>
                         <th>Level</th>
                         <th>Level Score</th>
@@ -74,8 +75,6 @@
                     Below Sweet Pea, the second highest score is 148,325, and none of the next highest scores even crack 125,000. Is 150,000 simply the highest score possible? That might be the case, but if you ask me, there's a whole lot more to this story.
                 </p>
             </article>
-            <!-- https://stackoverflow.com/questions/34499441/horizontal-rule-underneath-text-and-image -->
-            <hr>
             <article id="yesterday" class="blog_post">
                 <h3>What I Did Yesterday</h3>
                 <div class="byline">
@@ -88,8 +87,7 @@
                 </p>
             </article>
         </section>
-        <hr>
-        <section>
+        <section id="sign_up">
             <h2>Stay In The Loop</h2>
             <form>
                <label>Sign up for our newsletter:
