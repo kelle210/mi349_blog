@@ -3,7 +3,9 @@ html {
 }
 
 header {
-    padding: 10px;
+    position: sticky;
+    top: 0;
+    padding: 5px;
     background-color: #a26263;
 }
 
@@ -23,7 +25,7 @@ main {
     border-bottom: 2px solid;
 }
 
-.blog_post img{
+.blog_image{
     margin: 10px 20px;
     float: right;
 }
@@ -44,9 +46,13 @@ main {
 button{
     background-color: #a26263;
 }
+#basic_info {
+  display: flex;
+  width: 960px;
+  margin: 20px auto;
+}
 
 #stats{
-    float: left;
     background-color: #af96a8;
     padding: 40px;
     margin: 15px 15px 15px 15px;
