@@ -74,3 +74,23 @@ button:hover {
     border: 2px solid;
     background-color: #e15a5d;
 }
+
+@media (max-width: 600px) {
+    img {
+        width: 70%;
+        height: auto;
+    }
+
+    .blog_image {
+        float: none;
+    }
+
+    #basic_info {
+        display: block;
+        width: auto;
+    }
+
+    label, input{
+        display: flex;
+    }
+}
